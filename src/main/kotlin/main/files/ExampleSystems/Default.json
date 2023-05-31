@@ -1,0 +1,47 @@
+{
+  "settings": {
+    "time scale": 1,
+    "zoom": 0.5
+  },
+  "system": [
+    {
+      "type": "Terrestrial",
+      "name": "Red",
+      "mass": 5e17,
+      "radius": 20.0,
+      "color": "#ff0000",
+      "albedo": 1.0,
+      "atmosphere present?": false,
+      "greenhouse effect": 1.0,
+      "position": [0.0, 0.0],
+      "velocity": [0.0, 0.0],
+      "parent": null
+    },
+    {
+      "type": "Terrestrial",
+      "name": "Green",
+      "mass": 5e17,
+      "radius": 20.0,
+      "color": "#00ff00",
+      "albedo": 1.0,
+      "atmosphere present?": false,
+      "greenhouse effect": 1.0,
+      "position": [1000.0, 0.0],
+      "velocity": [0.0, -200.0],
+      "parent": null
+    },
+    {
+      "type": "Terrestrial",
+      "name": "Blue",
+      "mass": 5e17,
+      "radius": 20.0,
+      "color": "#0000ff",
+      "albedo": 1.0,
+      "atmosphere present?": false,
+      "greenhouse effect": 1.0,
+      "position": [-1000.0, 0.0],
+      "velocity": [0.0, 200.0],
+      "parent": null
+    }
+  ]
+}
